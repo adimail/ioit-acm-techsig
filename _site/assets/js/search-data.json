@@ -1,0 +1,121 @@
+{"0": {
+    "doc": "Resources",
+    "title": "Resources",
+    "content": "Here is a curated list of developer and learning resources for students and developers. ",
+    "url": "/docs/resources",
+    
+    "relUrl": "/docs/resources"
+  },"1": {
+    "doc": "Home",
+    "title": "IOIT ACM Technology SIG",
+    "content": "Special Interest Group at IOIT ACM student chapter focuses on building an community of developers, programmers and hackers. Table of content . | Resources | Meetups | . You can access the resources by the speakers at the events on this website. Developers can contribute to this project, see the Contribution guide . ",
+    "url": "/#ioit-acm-technology-sig",
+    
+    "relUrl": "/#ioit-acm-technology-sig"
+  },"2": {
+    "doc": "Home",
+    "title": "About the Project",
+    "content": "Welcome to IOIT ACM Student Chapter Technology SIG platform, build to inspire and support students on their programming journey! . Our Mission . We’ve created this website with a clear purpose: . | To provide a launchpad for aspiring programmers | To offer curated resources on latest technologies | Allowing students to work togather on a community project | To share insights from industry experts through SIG events | . What We Offer . | Resources: collection of learning materials. | Community Building: We’re dedicated to fostering a vibrant, supportive community of developers. Connect, learn, and grow with fellow enthusiasts. | . Get Involved . We believe in the power of collaboration. Whether you’re a beginner looking to learn or an experienced developer wanting to give back, we welcome your contributions! . To get started: . | Explore the website to discover our resources and community initiatives. | Check out our Contribution Guide to learn how you can help improve and expand this project. | . This website is a theme for generating static websites with Jekyll. You can write source files for your web pages using Markdown, the Liquid templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML. Just the Docs is © 2017-2024 by Patrick Marsceill. ",
+    "url": "/#about-the-project",
+    
+    "relUrl": "/#about-the-project"
+  },"3": {
+    "doc": "Home",
+    "title": "Contributing",
+    "content": "Thank you for your interest in contributing to this project! This guide will help you set up your development environment and get started with contributing. ",
+    "url": "/#contributing",
+    
+    "relUrl": "/#contributing"
+  },"4": {
+    "doc": "Home",
+    "title": "Prerequisites",
+    "content": "Before you begin, ensure you have the following installed: . | Ruby (version 3.0.0 or higher) | RubyGems | Bundler | Git | . ",
+    "url": "/#prerequisites",
+    
+    "relUrl": "/#prerequisites"
+  },"5": {
+    "doc": "Home",
+    "title": "Getting Started",
+    "content": "1. Fork the Repository . Start by forking this repository to your GitHub account. 2. Clone Your Fork . git clone https://github.com/your-username/ioit-acm-techsig.git cd ioit-acm-techsig . 3. Install Ruby . macOS . brew install rbenv rbenv init rbenv install 3.2.0 rbenv global 3.2.0 . Ubuntu/Debian . sudo apt-get update sudo apt-get install -y build-essential libssl-dev libreadline-dev zlib1g-dev curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-installer | bash rbenv install 3.2.0 rbenv global 3.2.0 . Windows . Download and install Ruby using the RubyInstaller. 4. Install Bundler . After installing Ruby, install Bundler: . gem install bundler . 5. Install Project Dependencies . bundle install . 6. Run the Project . bundle exec jekyll serve . Open your web browser and navigate to http://localhost:4000 to see the Jekyll site in action. ",
+    "url": "/#getting-started",
+    
+    "relUrl": "/#getting-started"
+  },"6": {
+    "doc": "Home",
+    "title": "Making Contributions",
+    "content": ". | Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name . | Make your changes and commit them: git add . git commit -m \"Add your meaningful commit message here\" . | Push your changes to your fork: git push origin feature/your-feature-name . | Open a pull request from your fork to the main repository. | . ",
+    "url": "/#making-contributions",
+    
+    "relUrl": "/#making-contributions"
+  },"7": {
+    "doc": "Home",
+    "title": "Tips",
+    "content": "Use github desktop to easily navigate the code repository . ",
+    "url": "/#tips",
+    
+    "relUrl": "/#tips"
+  },"8": {
+    "doc": "Home",
+    "title": "Reporting Issues",
+    "content": "If you encounter any bugs or have suggestions, please open an issue in the GitHub repository. ",
+    "url": "/#reporting-issues",
+    
+    "relUrl": "/#reporting-issues"
+  },"9": {
+    "doc": "Home",
+    "title": "Warning: NOT a noob lesson but a must watch",
+    "content": "This video is about learning, relearning and programming . ",
+    "url": "/#warning-not-a-noob-lesson-but-a-must-watch",
+    
+    "relUrl": "/#warning-not-a-noob-lesson-but-a-must-watch"
+  },"10": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"11": {
+    "doc": "Meetups",
+    "title": "Meetups",
+    "content": ". ",
+    "url": "/docs/meetups/",
+    
+    "relUrl": "/docs/meetups/"
+  },"12": {
+    "doc": "Meetups",
+    "title": "3 Sept 2024",
+    "content": "Topics Covered: . | Developer Tools | Developer Experience | GitHub and Building Projects | . Presentation Deck . ",
+    "url": "/docs/meetups/#3-sept-2024",
+    
+    "relUrl": "/docs/meetups/#3-sept-2024"
+  },"13": {
+    "doc": "Resume template",
+    "title": "Resume template",
+    "content": "graph TD; A[Resume in Word] --&gt; B[Export as PDF] B --&gt; C[PDF with Formatting Issues] C --&gt; D[Poor ATS Performance] D --&gt; E[Low Response Rate] F[Search for Alternatives] --&gt; G[Found LaTeX Templates on GitHub] G --&gt; H[Use LaTeX Template for Resume] H --&gt; I[Export as PDF with LaTeX] I --&gt; J[Clean and Professional PDF] J --&gt; K[Better ATS Compatibility] K --&gt; L[Higher Response Rate] A --&gt; F L --&gt; M[Recommendation to Use LaTeX Templates] . I used to make my resume with word and then convert to PDF. For some reason, sometimes it would treat some sections on my resume as an image and wouldn’t let me highlight any word, which really messed up my resume when it went through ATS (Application Tracking System). LaTex resumes are very clean. Not only it is better than converting DOC to PDF, but also it has a clean and simple. I highly recommend to use a LaTeX template than making your own resume! Here is am amazing template: . | https://github.com/jakegut/resume | . ",
+    "url": "/docs/resources/resume-template/",
+    
+    "relUrl": "/docs/resources/resume-template/"
+  },"14": {
+    "doc": "Resume template",
+    "title": "Overleaf",
+    "content": "An online LaTeX editor that’s easy to use. No installation, real-time collaboration, version control, hundreds of LaTeX templates, and more. ",
+    "url": "/docs/resources/resume-template/#overleaf",
+    
+    "relUrl": "/docs/resources/resume-template/#overleaf"
+  },"15": {
+    "doc": "Youtube",
+    "title": "Youtube",
+    "content": "Well, there are some good tech creaters out there. (Assuming you’re just watching for entertainment or on spare time) this is a list of few good channels, a tldr to stuff. Tip: read comments and dont doomscroll . ",
+    "url": "/docs/youtube/",
+    
+    "relUrl": "/docs/youtube/"
+  },"16": {
+    "doc": "Youtube",
+    "title": "Channels",
+    "content": ". | george hotz archive | fireship | Theo - t3․gg | ThePrimeagen | . ",
+    "url": "/docs/youtube/#channels",
+    
+    "relUrl": "/docs/youtube/#channels"
+  }
+}

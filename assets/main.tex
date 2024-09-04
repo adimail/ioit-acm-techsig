@@ -1,0 +1,215 @@
+%-------------------------
+% Resume in Latex
+% Author : Aditya Godse
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage[version=4]{mhchem}
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.50in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+% Subsection formatting
+\titleformat{\subsection}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{\hspace{-.15in}}{0em}{}[\color{black}\vspace{-8pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% -------------------- CUSTOM COMMANDS --------------------
+\newcommand{\customList}[2]{%
+  \begin{itemize}[leftmargin=0.15in, label={}, itemsep=#1, parsep=#2]
+    \small
+    #2
+  \end{itemize}%
+}
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\setlength{\footskip}{4.08003pt}
+
+
+% -------------------- START OF DOCUMENT --------------------
+\begin{document}
+
+% -------------------- HEADING--------------------
+\begin{center}
+  \textbf{\Huge \scshape Aditya Godse} \\ \vspace{8pt}
+  \small 
+  \faIcon{github} \href{https://github.com/adimail}{\underline{\textcolor{blue}{github.com/adimail}}} $  $
+  \faIcon{globe} \href{https://adimail.github.io/}{\underline{\textcolor{blue}{adimail.github.io}}} $  $
+  \faIcon{linkedin} \href{https://www.linkedin.com/in/adimail2404/}{\underline{\textcolor{blue}{linkedin/adimail2404}}} $  $
+  \faIcon{envelope} \href{mailto:adimail2404@gmail.com}{\underline{\textcolor{blue}{adimail2404@gmail.com}}}
+\end{center}
+
+% -------------------- EDUCATION --------------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {AISSMS Institute of Information Technology}{June 2026}
+      {Bachelor of Technology in Artificial Intelligence and Data Science}{CGPA: 7.72/10, Pune, India}
+    \resumeItemListStart
+      \resumeItem{Major Course:}{DevOps}
+      \resumeItem{Minor Course:}{Instrumentation Engineering}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+% -------------------- SKILLS --------------------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+        \item \textbf{Languages}{: C/C++, Python, JavaScript, TypeScript, Ruby, Go, Astro} \\
+        \item \textbf{Tools}{: Git/GitHub, Github Actions, CI/CD pipelines, GraphQL, Docker, Shell scripts,  beautifulsoup, react-native, AWS CLoud, NextJS, ESLint, Tensorflow, Pytorch, OpenCV, Webpack}
+        \\
+    }
+\end{itemize}
+
+% -------------------- PROJECTS --------------------
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\href{https://www.npmjs.com/package/hosteze-icons}{\textbf{hosteze-icons (npm package)}} $|$ \footnotesize\emph{TypeScript, Webpack, npm}}{July. 2024}
+\resumeItemListStart
+    \resumeItem{Built an internal tool to distribute SVG icons used on the web and mobile applications of hosteze.in}
+    \resumeItem{Built a lightweight bundle using Webpack \hfill \href{https://adimail.github.io/hosteze-icons/}{\textit{Documentation} \footnotesize{\faIcon{globe}}}}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://adimail.github.io/posts/telegram-scrapping/}{\textbf{CRM Tool (ETL pipeline)}} $|$ \footnotesize\emph{Astro, supabase, AWS S3, Python, aisensy}}{May. 2024}
+\resumeItemListStart
+    \resumeItem{ETL pipeline to extract data from multiple sources, transform it to meet business requirements, and load it into a centralized data warehouse on S3. Developed a system for customer communication via whatsapp.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://mermaid-mind.vercel.app/}{\textbf{Mermaid Mind (Web/LLM)}} $|$ \footnotesize\emph{Monaco Editor, LLM, Gemini, Next.js, MongoDB, NextAuth, tRCP, }}{May. 2024}
+\resumeItemListStart
+    \resumeItem{Web application to generate Mermaid diagrams using natural language with gemini-1.5-pro base model.}
+    \resumeItem{Used tCRP for server actions and Zustand for state management.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/adimail/moneyball-native}{\textbf{Moneyball (Android/IOS/Web)}} $|$ \footnotesize\emph{React Native, JavaScript, Firebase, Google Cloud, Mobile Development}}{Feb. 2024}
+\resumeItemListStart
+    \resumeItem{Cross-platform application to manage financial history with Firebase as a backend, optimizing performance using best NoSQL practices.}
+    \resumeItem{Hosted a website and built an Android application from a single source code}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/adimail/torrent-client}{\textbf{bittorrent client (CLI Tool)}} $|$ \footnotesize\emph{Go, Concurrency patterns, Bittorrent, Unit Testing, Bencoding}}{Jan. 2024}
+\resumeItemListStart
+    \resumeItem{Build a lightweight software application designed to download large files using the BitTorrent protocol.}
+    \resumeItem{A peer-to-peer (P2P) communication protocol used for distributing large amounts of data over the internet.}
+    \resumeItem{Learnt an efficient way to structure Go projects}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://adimail.github.io/visual-data-structures/}{\textbf{Visual Code Studio (Web)}} $|$ \footnotesize\emph{TypeScript, React}}{Dec. 2023}
+\resumeItemListStart
+    \resumeItem{DSA and pathfinding algorithms simulator.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\href{https://github.com/adimail/Webscrapping_watershed_pune_district}{\textbf{Maharashtra watershed web scrapper (python)}} $|$ \footnotesize\emph{python, Beautiful Soup}}{Nov. 2023}
+\resumeItemListStart
+    \resumeItem{Collaborated on a research project with college faculty, extracting watershed information in Maharashtra through web scraping the government site.}
+    \resumeItem{Utilized the gathered data for the validation of a QGIS model.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+% -------------------- EXPERIENCE --------------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+        {\textbf{Chief Technology Officer, Hosteze (Startup)} $|$ \footnotesize\emph{AWS, System Design, GraphQL}}{Feb. 2024 - Present}
+        \begin{itemize}
+        \item Responsible for the design, development, testing, and maintenance of the core product, while also maintaining a comprehensive technical documentation for the codebase.
+        \item Built an internal analytical CRM tool that analyzes customer data via an ETL data pipeline to study housing market in Pune and improve our reach.
+        \item Optimized the development workflow using CI/CD pipelines, creating a maintainable and robust application architecture that enhances usability and improves code readability and developer experience.
+        \end{itemize}
+
+    \resumeSubHeadingListEnd 
+    
+\section{Other Achivements}
+        \begin{itemize}
+            \item Title Holder for Asia's Largest Painting on Recycled Paper Canvas \hfill (Aug. 2021)
+            \item Scientist of the Year Award in highschool for Active Participation in Science Fairs \hfill (Feb. 2019)
+            \item 2 times National Level Rope Skipping Gold Medalist (Doube unders \& Spot jump) \hfill (2016 - 2017)
+        \end{itemize}
+
+\end{document}

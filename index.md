@@ -15,13 +15,13 @@ Special Interest Group at IOIT ACM student chapter focuses on building an commun
 
 #### Table of content
 
-- [Resources](/docs/resources/)
-- [Meetups](/docs/meetups/)
+- [Resources](https://adimail.github.io/ioit-acm-techsig/docs/meetups/)
+- [Meetups](https://adimail.github.io/ioit-acm-techsig/docs/meetups/)
 
 ---
 
 {: .new }
-> You can access the resources by the speakers at the events on this website. Developers can contribute to this project, see the [Contribution guide](#contributing)
+> You can access the resources by the speakers at the SIG events on this website. Developers and students can contribute to this project, see the [Contribution guide](#contributing) for more details
 
 ## About the Project
 
@@ -48,7 +48,7 @@ To get started:
 1. Explore the website to discover our resources and community initiatives.
 2. Check out our [Contribution Guide](#contributing) to learn how you can help improve and expand this project.
 
-This website is a theme for generating static websites with [Jekyll]. You can write source files for your web pages using [Markdown], the [Liquid] templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML.
+This website is a theme for generating static websites with [Jekyll]. You can write source files for your web pages using [Markdown], the [Liquid] templating language, and HTML. Jekyll builds your site by converting all files that have front matter to HTML.
 
 > Just the Docs is &copy; 2017-{{ "now" | date: "%Y" }} by [Patrick Marsceill](https://patrickmarsceill.com).
 
